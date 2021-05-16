@@ -1,6 +1,6 @@
 {
   "name": "markdown-posts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple API to transform a directory of markdown files with frontmatter into data.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
