@@ -14,6 +14,8 @@ npm install markdown-posts
 
 ### Usage
 
+By default, `markdown-posts` looks for all markdown files in the `posts` directory.
+
 Below is a basic example in Next.js:
 
 List all posts on home page:
