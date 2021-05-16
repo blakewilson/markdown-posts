@@ -1,0 +1,49 @@
+{
+  "name": "markdown-posts",
+  "version": "0.1.0",
+  "description": "A simple API to transform a directory of markdown files into HTML",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint './src'",
+    "format": "prettier --write './src/**/*.ts'"
+  },
+  "keywords": [
+    "next",
+    "gatsby",
+    "markdown",
+    "node",
+    "frontmatter",
+    "remark"
+  ],
+  "author": "Blake Wilson (https://blake.id)",
+  "license": "MIT",
+  "homepage": "https://github.com/blakewilson/markdown-posts",
+  "bugs": {
+    "url": "https://github.com/blakewilson/markdown-posts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blakewilson/markdown-posts.git"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  }
+}
