@@ -1,6 +1,6 @@
 # Markdown Posts
 
-A simple API to transform a directory of markdown files into an
+A simple API to transform a directory of markdown files with frontmatter into data.
 
 ## Usage
 
