@@ -1,4 +1,4 @@
-import { join } from 'path';
+import { join } from "path";
 
 interface MarkdownPostsConfig {
   postsDirectory: string;
@@ -6,8 +6,8 @@ interface MarkdownPostsConfig {
 }
 
 let markdownPostsConfig: MarkdownPostsConfig = {
-  postsDirectory: join(process.cwd(), 'posts'),
-  sortByFieldName: 'date',
+  postsDirectory: join(process.cwd(), "posts"),
+  sortByFieldName: "date",
 };
 
 export function getConfig(): MarkdownPostsConfig {

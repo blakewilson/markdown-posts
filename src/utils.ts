@@ -1,9 +1,9 @@
-import fs from 'fs';
-import remark from 'remark';
-import html from 'remark-html';
+import fs from "fs";
+import remark from "remark";
+import html from "remark-html";
 
 export const isMarkdownFile = (filename: string): boolean => {
-  return filename.endsWith('.md');
+  return filename.endsWith(".md");
 };
 
 export async function markdownToHtml(markdown: string): Promise<string> {
