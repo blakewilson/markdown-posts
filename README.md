@@ -49,6 +49,8 @@ Display a single post:
 **`pages/[slug].tsx`**
 
 ```tsx
+import { getPostBySlug, getAllPosts } from "markdown-posts";
+
 export default function SinglePost({ post }) {
   return (
     <article>
