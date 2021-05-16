@@ -1,23 +1,19 @@
 {
-	"compilerOptions": {
-		"module": "CommonJS",
-		"moduleResolution": "Node",
-		"target": "es5",
-		"removeComments": true,
-		"allowSyntheticDefaultImports": true,
-		"skipLibCheck": true,
-		"esModuleInterop": true,
-		"strict": true,
-		"noUnusedLocals": true,
-		"outDir": "dist",
-		"rootDir": "src",
-		"declaration": true,
-		"lib": [
-			"dom",
-			"dom.iterable",
-			"esnext"
-		],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "es5",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
     "forceConsistentCasingInFileNames": true,
     "strictNullChecks": true
-	},
+  }
 }

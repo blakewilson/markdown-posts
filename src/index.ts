@@ -2,7 +2,7 @@ import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { markdownToHtml, getPostSlugs } from "./utils";
-import { setConfig, getConfig } from "./config";
+import { getConfig } from "./config";
 
 interface Post {
   [key: string]: string;
@@ -52,7 +52,6 @@ export async function getAllPosts(
   );
 
   if (posts.length && posts[0][sortByFieldName]) {
-    console.log("sorting by ", sortByFieldName);
     posts = posts.sort((post1, post2) =>
       post1[sortByFieldName] > post2[sortByFieldName] ? -1 : 1
     );
@@ -60,5 +59,3 @@ export async function getAllPosts(
 
   return posts;
 }
-
-export { setConfig, getConfig };
